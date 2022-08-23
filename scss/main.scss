@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+.container{
+    width: 1440px;
+    height: 3642px;
+    padding-left: 80px;
+    background: #FEFCF7;
+}
+
+@import './sections/sections';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding-left: 80px;
+}
+.heading {
+display: flex;
+padding-top: 45px;
+}
+.nav-subtitle{
+    display: flex;
+    gap: 33px;
+    margin-left: 761px;
+}
+.nav-item{
+    
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+.card {
+    margin-top: 45px;
+    background-image: url(../images/coffee.love.png);
+    width: 1280px;
+height: 450px;
+border-radius: 10px ;
+}
+.card__item {
+    margin: 0%;
+    padding-left: 86px;
+    padding-top: 134px;
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+.card__title {
+    margin: 0%;
+    padding-top: 32px;
+    padding-left: 86px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.hero {
+    margin-top: 165px;
+    display: flex;  
+    gap: 95px;
+    padding-left: 85px;
+    width: 1280px;
+    height: 653px;
+    background: #2C343E;
+border-radius: 10px;
+}
+.hero__box {
+    padding-top: 198px;
+}
+.hero__item {
+    padding-bottom: 38px;
+    margin: 0%;
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+}
+.hero__title {
+    padding-bottom: 42px;
+    margin: 0%;
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;
+}
+.hero__subtitle {
+    margin: 0%;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
