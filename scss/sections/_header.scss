@@ -1,52 +1,157 @@
-.heading {
+header {
+  margin-left: 65px;
+  margin-top: 64px;
+  .navbar {
     display: flex;
-    padding-top: 45px;
-   
-    .nav-subtitle{
-        display: flex;
-        gap: 33px;
-        margin-left: 761px;
-    }
-    .nav-item{
-        
-        font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.923077px;
-    text-transform: uppercase;
-    color: #83888F;
-    }
-    .card {
-        margin-top: 45px;
-        background-image: url(../images/coffee.love.png);
-        width: 1280px;
-    height: 450px;
-    border-radius: 10px ;
-    }
-    .card__item {
-        margin: 0%;
-        padding-left: 86px;
-        padding-top: 134px;
-        font-family: 'Fraunces';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 72px;
-    color: #FEFCF7;
-    }
-    .card__title {
-        margin: 0%;
-        padding-top: 32px;
-        padding-left: 86px;
-        font-family: 'Barlow';
+  }
+  .nav__img {
+    margin-right: 741px;
+  }
+  .nav__title {
+    display: flex;
+    gap: 42px;
+  }
+  .nav__item {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Public Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FEFCF7;
-    mix-blend-mode: normal;
-    opacity: 0.8;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5fb4a2;
+  }
+  .nav__item:hover {
+    color: #203a4c;
+  }
+  .nav__item:nth-child(2) {
+    color: #33323d;
+  }
+  .nav__item:nth-child(2):hover {
+    color: #eaeaeb;
+  }
+  .nav__item:nth-child(3) {
+    color: #33323d;
+  }
+  .nav__item:nth-child(3):hover {
+    color: #eaeaeb;
+  }
+  .head {
+    padding-top: 243px;
+    background-image: url(..//../images/Bitmap.png);
+    margin-top: 54px;
+    width: 1110px;
+    height: 600px;
+  }
+  .head__box {
+    height: 357px;
+    width: 445px;
+    background: #fafafa;
+  }
+  .head__title {
+    width: 390px;
+    padding-top: 56px;
+    padding-bottom: 53px;
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323d;
+  }
+  .head__btn {
+    height: 48px;
+    width: 200px;
+    background: #203a4c;
+  }
+  .head__btn--item {
+    padding-top: 17px;
+    padding-left: 9px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .hamburger__img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-left: 39px;
+    .navbar {
+      display: flex;
     }
+    .nav__img {
+      margin-right: 319px;
+    }
+    .head {
+      padding-top: 243px;
+      background-image: url(..//../images/Bitmap.png);
+      margin-top: 54px;
+      width: 688px;
+      height: 600px;
+      background-color: transparent;
+    }
+    .hamburger__img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  header {
+    margin-left: 32px;
+    margin-top: 32px;
+
+    .nav__img {
+      margin-right: 226.92px;
+    }
+    .nav__link {
+      display: none;
+    }
+    .head {
+      padding-top: 243px;
+      background-image:url(..//../images/Bitmap\ \(1\).png);
+      margin-top: 54px;
+      width: 311px;
+      height: 168px;
+    }
+    .head__box {
+      width: 311px;
+      background: transparent;
+    }
+    .nav__item:hover {
+      color: #203a4c;
+    }
+    .nav__item:nth-child(2):hover {
+      color: #eaeaeb;
+    }
+    .nav__item:nth-child(3):hover {
+      color: #eaeaeb;
+    }
+    .head__title {
+      width: 311px;
+      padding-bottom: 32px;
+      font-family: "Ibarra Real Nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      color: #33323d;
+    }
+    .hamburger__img {
+      display: block;
+      margin-top: 10px;
+    }
+  }
 }

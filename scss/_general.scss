@@ -1,0 +1,29 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  all: inherit;
+  font-family: 'Public Sans', 'Ibarra Real Nova';
+}
+
+
+img{
+    max-width: 100%;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul, li{
+  list-style-type: none;
+}
